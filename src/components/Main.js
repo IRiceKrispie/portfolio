@@ -23,9 +23,10 @@ function Main(props) {
         {title}
       </Typography>
       <Divider />
-      <object width="400" height="400" type="application/pdf" data="https://drive.google.com/file/d/1QtnlwpPyJ-Sr9-xDwPTeSqi8_6UE8Dy6/preview">
+      <object width="400" height="400" type="application/pdf" data="https://drive.google.com/file/d/1dovo2Uu9cS1Z7sBdaoBTCzjqqbiMGXQHWEhEfKy5qJA/preview">
         <p>Insert your error message here, if the PDF cannot be displayed.</p>
       </object>
+      {/* For future use below */}
       {/* {posts.map((post) => (
         <Markdown className="markdown" key={post.substring(0, 40)}>
           {post}
