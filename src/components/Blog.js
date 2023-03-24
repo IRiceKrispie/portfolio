@@ -32,7 +32,7 @@ import blogPic from './images/blog2.png';
 const mainFeaturedPost = {
   title: 'Event Planner',
   description:
-    "Multiple lines of text that form the lede, informing new readers quickly and efficiently about what's most interesting in this post's contents.",
+    "Plan events and schedule tasks in your neighborhood.",
   image: 'https://media.giphy.com/media/ekY8JdlX7FqQTbteE7/giphy.gif',
   imageText: 'planner',
   linkText: 'Click to see project',
@@ -43,7 +43,7 @@ const featuredPosts = [
     title: 'Movie DB',
     date: 'Nov 2022',
     description:
-      'Movie DB',
+      'Track which movies you have watched.',
     image: 'https://media.giphy.com/media/nNUUhTml69NLV3ksaR/giphy.gif',
     imageLabel: 'Movie Reel',
     url: 'https://janvierb1.github.io/The-Movie-Library/',
@@ -67,10 +67,10 @@ const featuredPosts = [
     url: 'https://github.com/IRiceKrispie/Social-Network-API',
   },
   {
-    title: 'Scheduler',
+    title: 'Weekly Scheduler',
     date: 'Oct 2022',
     description:
-      'Scheduler',
+      'Stay ahead by planning ahead.',
     image: blogPic,
     imageLabel: 'Writing a blog',
     url: 'https://iricekrispie.github.io/challenge-5/',
@@ -79,7 +79,7 @@ const featuredPosts = [
     title: 'Weather Dashboard',
     date: 'Oct 2022',
     description:
-      'Search for Weather',
+      'Search for Weather patterns in your city.',
     image: 'https://media.giphy.com/media/26uf5HjasTtxtNCqQ/giphy.gif',
     imageLabel: 'weather',
     url: 'https://iricekrispie.github.io/challenge-6/',
@@ -139,8 +139,8 @@ export default function Blog() {
         </main>
       </Container>
       <Footer
-        title="Footer"
-        description="Something here to give the footer a purpose!"
+        title="Feel Free to Contact Me"
+        description="Made with care using React and Material UI"
       />
     </ThemeProvider>
   );
