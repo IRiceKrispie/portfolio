@@ -23,8 +23,8 @@ function Main(props) {
         {title}
       </Typography>
       <Divider />
-      <object width="400" height="400" type="application/pdf" data="https://drive.google.com/file/d/1dovo2Uu9cS1Z7sBdaoBTCzjqqbiMGXQHWEhEfKy5qJA/preview">
-        <p>Insert your error message here, if the PDF cannot be displayed.</p>
+      <object width="100%" height="600" type="application/pdf" data="https://drive.google.com/file/d/1dovo2Uu9cS1Z7sBdaoBTCzjqqbiMGXQHWEhEfKy5qJA/preview">
+        <embed src="https://drive.google.com/file/d/1dovo2Uu9cS1Z7sBdaoBTCzjqqbiMGXQHWEhEfKy5qJA/preview" width="100%" height="400px"/>
       </object>
       {/* For future use below */}
       {/* {posts.map((post) => (
