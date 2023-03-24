@@ -75,6 +75,15 @@ const featuredPosts = [
     imageLabel: 'Writing a blog',
     url: 'https://iricekrispie.github.io/challenge-5/',
   },
+  {
+    title: 'Weather Dashboard',
+    date: 'Oct 2022',
+    description:
+      'Search for Weather',
+    image: 'https://media.giphy.com/media/26uf5HjasTtxtNCqQ/giphy.gif',
+    imageLabel: 'weather',
+    url: 'https://iricekrispie.github.io/challenge-6/',
+  },
 ];
 
 const posts = [post1, post2, post3];
@@ -82,7 +91,7 @@ const posts = [post1, post2, post3];
 const sidebar = {
   title: 'About',
   description:
-    'Etiam porta sem malesuada magna mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.',
+    'My name is Joseph Sandoval. I am a junior web devolper that is familiar with HTML, jQuery, JavaScript, Node.js, Express.js, Web Bundlers, MySQL, MongoDB, and React. Feel free to check out my projects and my repos on GitHub.',
 //   archives: [
 //     { title: 'March 2020', url: '#' },
 //     { title: 'February 2020', url: '#' },
@@ -119,7 +128,7 @@ export default function Blog() {
             ))}
           </Grid>
           <Grid container spacing={5} sx={{ mt: 3 }}>
-            <Main title="Something here" posts={posts} />
+            <Main title="Resume" posts={posts} />
             <Sidebar
               title={sidebar.title}
               description={sidebar.description}
