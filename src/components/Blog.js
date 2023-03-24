@@ -14,6 +14,7 @@ import Footer from './Footer';
 import post1 from './blog-post.1.md';
 import post2 from './blog-post.2.md';
 import post3 from './blog-post.3.md';
+import blogPic from './images/blog2.png';
 
 // const sections = [
 //   { title: 'Technology', url: '#' },
@@ -29,30 +30,50 @@ import post3 from './blog-post.3.md';
 // ];
 
 const mainFeaturedPost = {
-  title: 'Title of a longer featured project',
+  title: 'Event Planner',
   description:
     "Multiple lines of text that form the lede, informing new readers quickly and efficiently about what's most interesting in this post's contents.",
-  image: 'https://source.unsplash.com/random',
-  imageText: 'main image description',
-  linkText: 'Continue reading…',
+  image: 'https://media.giphy.com/media/ekY8JdlX7FqQTbteE7/giphy.gif',
+  imageText: 'planner',
+  linkText: 'Click to see project',
 };
 
 const featuredPosts = [
   {
-    title: 'Featured post',
-    date: 'Nov 12',
+    title: 'Movie DB',
+    date: 'Nov 2022',
     description:
-      'This is a wider card with supporting text below as a natural lead-in to additional content.',
-    image: 'https://source.unsplash.com/random',
-    imageLabel: 'Image Text',
+      'Movie DB',
+    image: 'https://media.giphy.com/media/nNUUhTml69NLV3ksaR/giphy.gif',
+    imageLabel: 'Movie Reel',
+    url: 'https://janvierb1.github.io/The-Movie-Library/',
   },
   {
-    title: 'Post title',
-    date: 'Nov 11',
+    title: 'Text Editor',
+    date: 'Dec 2022',
     description:
-      'This is a wider card with supporting text below as a natural lead-in to additional content.',
-    image: 'https://source.unsplash.com/random',
-    imageLabel: 'Image Text',
+      'Simple Text Editor.',
+    image: 'https://media.giphy.com/media/W4p2QJMltrvDqp1c0B/giphy.gif',
+    imageLabel: 'Pencil Writing',
+    url: 'https://morning-ridge-62197.herokuapp.com/',
+  },
+  {
+    title: 'Social Network API',
+    date: 'Jan 2023',
+    description:
+      'Social Network API',
+    image: 'https://media.giphy.com/media/jQmn1Dkw55R3cjm3eC/giphy.gif',
+    imageLabel: 'Social Network Likes',
+    url: 'https://github.com/IRiceKrispie/Social-Network-API',
+  },
+  {
+    title: 'Scheduler',
+    date: 'Oct 2022',
+    description:
+      'Scheduler',
+    image: blogPic,
+    imageLabel: 'Writing a blog',
+    url: 'https://iricekrispie.github.io/challenge-5/',
   },
 ];
 
@@ -76,8 +97,8 @@ const sidebar = {
 //     { title: 'April 1999', url: '#' },
 //   ],
   social: [
-    { name: 'GitHub', icon: GitHubIcon },
-    { name: 'LinkedIn', icon: LinkedInIcon },
+    { name: 'GitHub', icon: GitHubIcon, url: "https://github.com/IRiceKrispie" },
+    { name: 'LinkedIn', icon: LinkedInIcon, url: "https://www.linkedin.com/in/joseph-sandoval-70b177259/" },
   ],
 };
 
