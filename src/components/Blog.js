@@ -128,7 +128,7 @@ export default function Blog() {
             ))}
           </Grid>
           <Grid container spacing={5} sx={{ mt: 3 }}>
-            <Main title="Resume" posts={posts} />
+            <Main title="View My Resume" posts={posts} />
             <Sidebar
               title={sidebar.title}
               description={sidebar.description}

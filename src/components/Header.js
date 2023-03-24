@@ -6,6 +6,15 @@ import Typography from '@mui/material/Typography';
 import Link from '@mui/material/Link';
 import GitHub from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import ProfilePic from './images/profilePic.jpg'
+
+const styles = {
+  imgStyle: {
+    borderRadius: '25px',
+    height: '100px',
+    width: 'auto',
+  },
+};
 
 function Header(props) {
   const { sections, title } = props;
@@ -25,6 +34,7 @@ function Header(props) {
         >
           {title}
         </Typography>
+        <div><img src={ProfilePic} style={styles.imgStyle}></img></div>
       </Toolbar>
       <Toolbar
         component="nav"
